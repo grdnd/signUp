@@ -1,6 +1,26 @@
+:root {
+  --body-text: "PT Sans", sans-serif;
+
+  --blue: #3273dc;
+  --green: #0fbb54;
+}
 * {
   box-sizing: border-box;
 
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: var(--body-text);
+  font-size: 16px;
+}
+
+nav {
+  position: absolute;
+}
+
+nav img {
+  width: 300px;
+  opacity: 60%;
 }
