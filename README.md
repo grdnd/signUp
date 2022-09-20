@@ -12,6 +12,10 @@
 
 - Webpage must b e responsive and adjustable across all screen sizes
 
+## Usage
+
+[SignUp page is live!](https://grdnd.github.io/signUp/)
+
 ## Previews
 
 Medium
