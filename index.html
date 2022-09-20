@@ -5,6 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
-  <body></body>
+
+  <body>
+    <!-- Nav -->
+    <!-- <nav class="logo">
+      <a href="#" class="center">
+        <img src="assets/logo.png" alt="Antra, Inc. Logo" />
+      </a>
+    </nav> -->
+
+    <!-- Main -->
+    <main>
+      <!-- Header -->
+      <header class="signUp__header-container">
+        <h1 class="signUp__header-text">Sign Up</h1>
+      </header>
+
+      <!-- Form -->
+      <form class="signUp__form">
+        <section class="signUp__form-names">
+          <input type="text" class="sm-input" placeholder="First Name" />
+          <input type="text" class="sm-input" placeholder="Last Name" />
+        </section>
+
+        <section class="signUp__form-contact">
+          <input type="tel" id="phone" placeholder="Mobile No." />
+          <input type="email" id="email" placeholder="E-mail" />
+        </section>
+
+        <section class="signUp__form-passwords">
+          <input type="text" class="sm-input" placeholder="Password" />
+          <input type="text" class="sm-input" placeholder="Confirm Password" />
+        </section>
+
+        <section class="signUp__form-terms">
+          <section class="checkbox-wrapper">
+            <input type="checkbox" id="checkbox" />
+            <label for="checkbox" class="agree">I Agree</label>
+          </section>
+          <section class="signUp__form-terms__text">
+            <p>
+              By clicking <span class="blue-box">Register</span>, you agree to
+              the <a href="#">Terms and Conditions</a> set out by this site,
+              including our Cookie Use.
+            </p>
+          </section>
+        </section>
+        <section class="signUp__form-buttons">
+          <button class="register">Register</button>
+          <button class="signIn">Sign In</button>
+        </section>
+      </form>
+      <!-- Form End -->
+      <!-- Footer -->
+      <hr />
+      <footer>
+        <section class="location">
+          <li><h1 class="antra">Antra, Inc.</h1></li>
+          <li>21355 Ridgetop Circle Suite 300</li>
+          <li>Dulles, VA 20166</li>
+        </section>
+        <section class="footer-items">
+          <li>Phone: <span class="blue-text"> 703.994.4545 </span></li>
+          <li>Fax: <span class="blue-text">703.373.2975</span></li>
+          <li>E-mail: <span class="blue-text">hr@antra.net</span></li>
+          <li>Website: <a href="#">www.antra.net</a></li>
+        </section>
+      </footer>
+    </main>
+  </body>
 </html>
