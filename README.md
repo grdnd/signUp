@@ -26,6 +26,6 @@ Large
 
 ![large](https://user-images.githubusercontent.com/93315369/191376023-f1fefc89-dff0-401d-b6ba-d8e7f42a7a4d.png)
 
-Small
+Mobile
 
-![small](https://user-images.githubusercontent.com/93315369/191376030-e1b18b95-3aad-4caf-88ff-6a5ecdea4f33.png)
+![small](https://user-images.githubusercontent.com/93315369/191380131-9cefc4fc-e491-4e99-98be-9909e1e223c9.png)
